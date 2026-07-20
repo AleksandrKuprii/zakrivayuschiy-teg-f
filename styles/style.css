@@ -167,7 +167,7 @@
   position: absolute;
   width: 38px;
   height: 38px;
-  right: 167px;
+  right: 161px;
   bottom: 25px;
   background-color: transparent;
   border: 2px solid transparent;
@@ -418,8 +418,13 @@
 }
 
 @media(width <=375px) {
-  .card__save-button {
+  .save-button {
     flex-direction: column;
+  }
+
+  .save-button__icon {
+    width: 28px;
+    height: 28px;
   }
 
   .dialog[open] {
